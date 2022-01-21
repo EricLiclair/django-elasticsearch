@@ -5,7 +5,4 @@ class ProductSearchSerializer(serializers.ModelSerializer):
         model = Product
         fields = [
                     'name'
-                    'id',
-                    'price',
-                    'quantity'
         ]
