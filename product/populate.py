@@ -1,4 +1,4 @@
-from .models import Product
+
 import csv
 
 def populate_db():
