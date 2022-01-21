@@ -10,4 +10,4 @@ class ProductDocument(Document):
     
     class Django:
         model = Product
-        fields = ['id', 'name', 'price', 'quantity']
+        fields = ['name']

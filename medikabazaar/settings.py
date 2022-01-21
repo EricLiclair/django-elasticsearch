@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-$(es&p-)2sn&dk8rgilp^9p(^zz7*bk-2&zi8*&3!wa61a9r+o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['port-8000-mdkbzr-diliga8356426146.preview.codeanywhere.com']
 
 ELASTICSEARCH_DSL = {
     'default': {
@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_elasticsearch_dsl',
-    'product.apps.ProductConfig'
+    'rest_framework',
+    'product.apps.ProductConfig',
 ]
 
 MIDDLEWARE = [
